@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection from '../components/Herosection';
-import ContactPopup from '../components/Contactpopup';
+import ContactPopup from '../components/ContactPopup';
 import AboutUsSection from '../components/AboutUsSection';
 import ImageGrid from '../components/ImageGrid';
 import Branches from '../components/Branches';
