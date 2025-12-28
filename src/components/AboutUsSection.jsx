@@ -33,8 +33,8 @@ export default function AboutUsSection() {
 
             <div className="about-block">
               <h4>Contact</h4>
-              <p>Ravi Sathvara</p>
-              <a href="tel:+917226880794">📞 +91 72268 80794</a>
+              <p className="mb-0">Ravi Sathavara <a href="tel:+916353940245">📞 +91 63539 40245</a></p>
+              <p className="mb-0">Hitesh Sathavara <a href="tel:+916353927208">📞 +91 63539 27208</a></p>
               <p>
                 📧{" "}
                 <a href="mailto:Rajwadichanijamavat@gmail.com">

@@ -6,10 +6,10 @@
 /* Hero */
 .about-hero {
   max-width: 1200px;
-  margin: 0 auto 80px;
+  /* margin: 0 auto 80px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  /* gap: 40px; */
   align-items: center;
 }
 

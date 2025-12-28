@@ -1,5 +1,5 @@
 .image-grid-section {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background: linear-gradient(183deg, rgb(240 190 176) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 100%);
 }
 
@@ -60,4 +60,19 @@
     height: 180px;
     object-fit: contain;
   }
+}
+
+.category-title {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.about-underline {
+  width: 90px;
+  height: 4px;
+  background: rgb(255, 157, 0);
+  margin: 15px auto 0;
+  margin-bottom: 20px;
 }

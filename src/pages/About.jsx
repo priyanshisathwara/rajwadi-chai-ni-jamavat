@@ -25,12 +25,10 @@ const About = () => {
 
       {/* Owner Section */}
       <div className="about-owner">
-        <div className="owner-img">
-          <img src={ownerImg} alt="Founder of Rajwadi Cha Ni Jamavat" />
-          <h2>Ravi Sathvara</h2>
-        </div>
         <div className="owner-text">
           <h2>Meet the Founder</h2>
+          <b>Ravi Sathavara</b> <br />
+          <b>Hitesh Sathavara</b>
           <p>
             The vision behind Rajwadi Cha Ni Jamavat comes from a passion for
             delivering the perfect cup of tea with a royal touch. Built on hard
