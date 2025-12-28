@@ -9,7 +9,7 @@ const SocialLinks = () => {
         </div>
         <div className="d-flex gap-2">
       <a
-        href="https://www.instagram.com/yourpagehttps://www.instagram.com/rajwadi.chaa?igsh=MTlpamI1ajR1eTBqdA%3D%3D&utm_source=qr"
+        href="https://www.instagram.com/rajwadi.chaa?igsh=MTlpamI1ajR1eTBqdA%3D%3D&utm_source=qr"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram"

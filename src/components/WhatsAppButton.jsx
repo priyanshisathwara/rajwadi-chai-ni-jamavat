@@ -9,7 +9,7 @@ const WhatsAppButton = ({ showButton = false }) => {
 
   if (showButton) {
     return (
-      <button type="button" target='_blank' className="whatsapp-btn btn btn-success"><FaWhatsapp /> Contact Us on Whatsapp</button>
+      <a href={whatsappLink} type="button" target='_blank' className="whatsapp-btn btn btn-success"><FaWhatsapp /> Contact Us on Whatsapp</a>
     );
   }
   return (
