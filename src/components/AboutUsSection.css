@@ -1,0 +1,132 @@
+.about-section {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Heading */
+.about-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(150,65,41);
+}
+
+.about-underline {
+  width: 90px;
+  height: 4px;
+  background: rgb(255, 157, 0);
+  margin: 15px auto 0;
+}
+
+/* Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Left Content */
+.about-left h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: rgb(150,65,41);
+}
+
+.about-left p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-block {
+  margin-top: 25px;
+}
+
+.about-block h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about-block a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Tags */
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: rgb(150,65,41);
+  margin-top: 20px;
+}
+
+/* Features */
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.feature-card {
+  background: #eff6ff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.feature-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Right Image */
+.about-right {
+  position: relative;
+}
+
+.about-right img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+/* Experience badge */
+.experience-badge {
+  position: absolute;
+  bottom: -25px;
+  left: -25px;
+  background: rgb(150,65,41);
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.experience-badge .years {
+  font-size: 42px;
+  font-weight: 700;
+}
