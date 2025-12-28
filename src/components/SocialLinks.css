@@ -1,0 +1,51 @@
+.social-links {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.social-icon {
+  /* width: 42px; */
+  height: 42px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Instagram Gradient */
+.social-icon.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+/* Facebook Blue */
+.social-icon.facebook {
+  background-color: #1877f2;
+}
+
+/* Hover Effect */
+.social-icon:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile size */
+@media (max-width: 480px) {
+  .social-icon {
+    height: 38px;
+    font-size: 18px;
+  }
+}

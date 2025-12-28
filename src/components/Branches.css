@@ -1,0 +1,51 @@
+.branches-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.branches-section h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.branches-section p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.branches-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.branch-card {
+  padding: 14px 10px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.branch-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .branches-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .branches-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

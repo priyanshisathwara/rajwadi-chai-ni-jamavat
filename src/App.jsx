@@ -8,6 +8,7 @@ import Franchise from "./pages/Franchise.jsx";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import WhatsAppButton from '../src/components/WhatsAppButton.jsx';
+import Branches from "./components/Branches.jsx";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/franchise" element={<Franchise />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/branches" element={<Branches />} />
         </Routes>
       </main>
 

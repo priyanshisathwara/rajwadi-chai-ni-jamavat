@@ -115,18 +115,19 @@
 }
 
 /* Experience badge */
-.experience-badge {
+.outlet-badge {
+  margin-top: 100px;
   position: absolute;
-  bottom: -25px;
-  left: -25px;
+  top: -125px;
+  left: -35px;
   background: rgb(150,65,41);
   color: #fff;
-  padding: 20px 25px;
+  padding: 10px 25px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
-.experience-badge .years {
-  font-size: 42px;
+.outlet-badge .years {
+  font-size: 30px;
   font-weight: 700;
 }

@@ -58,16 +58,16 @@ export default function AboutUsSection() {
             {/* Features */}
             <div className="about-features">
               <div className="feature-card">
-                🏆
-                <p>ISO Certified</p>
-              </div>
-              <div className="feature-card">
                 👥
-                <p>Expert Team</p>
+                <p>Expert Team training</p>
               </div>
               <div className="feature-card">
                 💼
-                <p>75+ Projects</p>
+                <p>Franchise running 21+ cities</p>
+              </div>
+               <div className="feature-card">
+                ☕️
+                <p>Taste ++</p>
               </div>
             </div>
           </div>
@@ -79,9 +79,9 @@ export default function AboutUsSection() {
               alt="Manufacturing facility"
             />
 
-            <div className="experience-badge">
+            <div className="outlet-badge">
               <p className="years">30+</p>
-              <p>Years Experience</p>
+              <p>Outlets</p>
             </div>
           </div>
         </div>
