@@ -35,7 +35,7 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <div className="footer-social">
             <a
-              href="https://www.instagram.com/yourpage"
+              href="https://www.instagram.com/rajwadi.chaa?igsh=MTlpamI1ajR1eTBqdA%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -43,7 +43,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://www.facebook.com/yourpage"
+              href="https://www.facebook.com/share/1B9Ps7QBzD"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
