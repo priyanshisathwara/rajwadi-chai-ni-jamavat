@@ -16,7 +16,11 @@ const ContactUs = () => {
             <strong>Email:</strong> <a href="mailto:Rajwadichanijamavat@gmail.com">Rajwadichanijamavat@gmail.com</a>
           </p>
           <p>
-            <strong>Phone:</strong> <a href="tel:+917226880794">+91 72268 80794</a>
+            <strong>Phone:</strong>
+            <br />
+            Ravi Sathavara 📞 <a href="tel:+916353940245">+91 63539 40245</a>
+            <br />
+            Hitesh Sathavara 📞 <a href="tel:+916353927208">+91 63539 27208</a>
           </p>
         </div>
 

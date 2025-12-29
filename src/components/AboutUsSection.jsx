@@ -80,7 +80,7 @@ export default function AboutUsSection() {
             />
 
             <div className="outlet-badge">
-              <p className="years">30+</p>
+              <p className="years">35+</p>
               <p>Outlets</p>
             </div>
           </div>

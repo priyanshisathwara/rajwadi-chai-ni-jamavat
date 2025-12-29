@@ -51,7 +51,7 @@ const About = () => {
             💰 <strong>Investment:</strong> Just ₹2.71 Lakhs
           </div>
           <div className="franchise-card">
-            🏪 <strong>30+ Active Branches</strong>
+            🏪 <strong>35+ Active Branches</strong>
           </div>
           <div className="franchise-card">
             🌍 <strong>Presence in 21 Cities</strong>
