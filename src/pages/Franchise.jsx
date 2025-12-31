@@ -1,6 +1,7 @@
 import "./Franchise.css";
 import franchiseImg from "../assets/image4.jpeg";
 import franchiseImg1 from "../assets/image1.jpeg";
+import { Helmet } from "react-helmet-async";
 
 const steps = [
   {
@@ -33,12 +34,34 @@ const steps = [
 const Franchise = () => {
   return (
     <section className="franchise-page">
+      <Helmet>
+        <title>
+          Tea Franchise in Gujarat | Rajwadi Cha Ni Jamavat Franchise Opportunity
+        </title>
+
+        <meta
+          name="description"
+          content="Start your own tea business with Rajwadi Cha Ni Jamavat. One of the best tea franchise opportunities in Gujarat with complete training, branding, and support."
+        />
+
+        <link
+          rel="canonical"
+          href="https://rajwadichanijamavat.com/franchise"
+        />
+      </Helmet>
+
 
       {/* Hero Section */}
       <div className="franchise-hero">
         <div className="franchise-hero-text">
-          <h1>તમારો પોતાનો વ્યવસાય શરૂ કરો</h1>
-          <h2>રાજવાડી ચા ની જમાવટ ફ્રેન્ચાઇઝ સાથે</h2>
+          <h1>
+            રાજવાડી ચા ની જમાવટ - ગુજરાતમાં શ્રેષ્ઠ ચા ફ્રેન્ચાઇઝ
+          </h1>
+
+          <h2>
+            તમારો પોતાનો સફળ વ્યવસાય શરૂ કરો
+          </h2>
+
           <p>
             પરંપરા, ગુણવત્તા અને એકસરખા સ્વાદ સાથે
             ગ્રાહકોનો વિશ્વાસ જીતતું બ્રાન્ડ.
@@ -46,7 +69,9 @@ const Franchise = () => {
         </div>
 
         <div className="franchise-hero-img">
-          <img src={franchiseImg} alt="Rajwadi Cha Franchise Benefits" />
+          <img src={franchiseImg}
+            alt="Rajwadi Cha Ni Jamavat Tea Franchise in Gujarat"
+          />
         </div>
       </div>
 
@@ -79,7 +104,9 @@ const Franchise = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center mt-4 franchise-img1">
-        <img src={franchiseImg1} alt="Rajwadi Cha Franchise Benefits" />
+        <img src={franchiseImg1}
+          alt="Rajwadi Cha Franchise Business Opportunity Gujarat"
+        />
       </div>
     </section>
   );
