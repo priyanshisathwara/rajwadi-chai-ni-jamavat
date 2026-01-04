@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,22 +14,31 @@ import Branches from "./components/Branches.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <WhatsAppButton showButton={false} />
+    <>
+      <Helmet>
+        <meta
+          name="google-site-verification"
+          content="1ezIJcPuQEe0vMdRw3ck8CYG65hZ8rsqF04TyqeQ7rs"
+        />
+      </Helmet>
 
-      <main style={{ minHeight: "80vh" }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/franchise" element={<Franchise />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/branches" element={<Branches />} />
-        </Routes>
-      </main>
+      <BrowserRouter>
+        <Navbar />
+        <WhatsAppButton showButton={false} />
 
-      <Footer />
-    </BrowserRouter>
+        <main style={{ minHeight: "80vh" }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/franchise" element={<Franchise />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/branches" element={<Branches />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 
